@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
     <!-- Javascript -->
     <script src="script.js"></script>
 
@@ -17,18 +20,17 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <h1>Hello Python Playground</h1>
-    </div>
-    <div class="container-fluid">
+    <div class="container">
+        <h1 class="text-center">Hello Python Playground</h1>
         <form>
             <div class="form-group">
-                <label for="exampleFormControlInput1">Number</label>
+                <label for="numberInput">Number</label>
                 <input type="text" onkeyup="inputChanged(event);" class="form-control" id="numberInput"
-                    placeholder="Your number">
+                    placeholder="Enter your number">
+            </div>
+            <div class="form-group">
                 <label for="result">Result</label>
-                <input type="text" class="form-control" id="result"
-                    placeholder="Result" disabled>
+                <input type="text" class="form-control" id="result" placeholder="Result" disabled>
             </div>
         </form>
     </div>

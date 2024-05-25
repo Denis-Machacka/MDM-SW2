@@ -6,8 +6,3 @@ function inputChanged(event) {
             document.getElementById("result").value = data["sum"];
         });
 }
-
-
-
-
-
